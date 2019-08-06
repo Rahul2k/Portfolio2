@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css"  type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>
+    Portfolio | Rahul Srivastava
+</title>
+<body>
+    <div id="HorNavBar">
+        <h3 style="padding-left: 1vw;">Rahul Srivastava  <button class="dropbtn" onclick="drop()" style="border: 1px solid #d3683e;border-radius: 2px;background: #bd5d38;"><i class="fa fa-bars"></i></button> </h3>
+    </div>
+    <div class="dropdown">
+        <a href="#About">
+            <h4>ABOUT</h4>
+        </a>
+        <a href="#Education">
+            <h4>EDUCATION</h4>
+        </a>
+        <a href="#Skill">
+            <h4>SKILL</h4>
+        </a>
+        <a href="#Internships">
+            <h4>INTERNSHIPS</h4>
+        </a>
+        <a href="#Interests">
+            <h4>INTERESTS</h4>
+        </a>
+    </div>
+    <div style="display: flex;height: auto; width: 100vw;">
+        <div id="NavBar">
+            <a href="#About"> 
+                <h4>ABOUT</h4>
+            </a>
+            <a href="#Education">
+                <h4>EDUCATION</h4>
+            </a>
+            <a href="#Skill">
+                <h4>SKILL</h4>
+            </a>
+            <a href="#Internships">
+                <h4>INTERNSHIPS</h4>
+            </a>
+            <a href="#Interests">
+                <h4>INTERESTS</h4>
+            </a>
+        </div>
+        <div class="Contents">
+            <div id="About">
+                <h1>
+                    <c style="color: rgb(1, 63, 63);">RAHUL</c><b style="color: #e77244;"> SRIVASTAVA</b>
+                </h1>
+                <h6>New Delhi, India(110085) <b style="padding-left: 2vw;">(+91)9650741203</b><br> rahulsrivastava.2k@gmail.com</h6>
+                <h2><a href="https://github.com/Rahul2k" style="color: rgb(1, 63, 63);"><i
+                            class="fab fa-github"></i></a> <a style="color: rgb(1, 63, 63); padding-left: 4vw;"
+                        href="https://www.facebook.com/rahul.srivastava.73700136"><i class="fab fa-facebook"></i></a> <a
+                        style="color: rgb(1, 63, 63);padding-left: 4vw;"
+                        href="https://www.linkedin.com/in/rahul-srivastava-b09774185/"><i
+                            class="fab fa-linkedin-in"></i></a></h2>
+                <h6>An aspiring coder and entrepreneur who always aims at self development.<br>Currently a student,
+                    pursuing
+                    B.Tech. in Computer Science at Delhi Technological University (2018-2022).</h6>
+            </div>
+
+            <hr>
+            <div id="Education">
+                <h1>
+                    <c style="color: rgb(1, 63, 63);">EDUCATION</c>
+                </h1>
+                <h6>
+                    <ul>
+                        <li>C.G.P.A : 8.2 (Average till last semester)</li><br>
+                        <li>JEE Mains (2018) Rank: 9207</li><br>
+                        <li>93.6% in 12th Standard (C.B.S.E Board)</li><br>
+                        <li>97.3 percentile (All India) in Australian National Chemistry Quiz (2016)</li><br>
+                        <li>Received Distinction in Academics for consecutive academic years (2014-2017)</li><br>
+                        <li>C.G.P.A : 10 (Standard 10th C.B.S.E Board)</li>
+                    </ul>
+                </h6>
+            </div>
+            <hr>
+            <div id="Skill">
+                <h1>
+                    <c style="color: rgb(1, 63, 63);">SKILLS</c>
+                </h1>
+
+                <h3><b style="color: #e77244;">Languages</b> Proficient in : </h3>
+                <h2>
+                    C/C++ <i class="fab fa-python"></i> <i class="fab fa-js-square"></i><br><br>
+                </h2>
+                <h3><b style="color: #e77244;">Technologies</b> Proficient in :</h3>
+                <h2>
+                    <i class="fab fa-node-js"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-angular"></i>
+                    <i class="fab fa-npm"></i>
+                </h2>
+            </div>
+            <hr>
+            <div id="Internships">
+                <h1>
+                    <c style="color: rgb(1, 63, 63);">INTERNSHIPS</c>
+                </h1>
+                <h4>
+
+                </h4>
+            </div>
+            <hr>
+            <div id="Interests">
+                <h1>
+                    <c style="color: rgb(1, 63, 63);">INTERESTS</c>
+                </h1>
+                <h5 style="padding-top: 40px;">
+                    <p>
+                        Apart from being involved in academics, I also play the keyboard with Jazz, Rock and Indian
+                        Classical being my favourite genres.
+                        I also read articles and facts on Modern Physics and Aviation/Aerospace Engineering.
+                    </p>
+                </h5>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function drop() {
+  var a=document.getElementsByClassName("dropdown").display;
+  a= "block";
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</html>

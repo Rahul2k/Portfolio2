@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#NavBar {
+    background : #bd5d38;
+    font-size: x-large;
+    color: rgb(1, 99, 99);
+    position: fixed;
+    top :0px;
+    left : 0px;
+    height: 100vh;
+    width: 23vw;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 35vh;
+    border : 1px solid #e77244;
+}
+
+.dropdown {
+    display: none;
+}
+
+.Contents {
+    width : 77vw;
+    margin-left: 22vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    font-size: 2.1vw;
+    color: rgb(1, 99, 99);
+    background: white;
+    overflow: auto;
+}
+
+#About {
+    height: 100vh;
+    padding-top: 21vh;
+    padding-left: 2.1vw;
+    margin-top: 0px;
+}
+
+#Education {
+    height: 100vh;
+    padding-left: 2.1vw;
+    padding-top: 20vh;
+}
+
+#Skill {
+    color: rgb(1, 99, 99);
+    height: 100vh;
+    padding-top: 22vh;
+    padding-left: 2.1vw;
+
+}
+
+#Internships {
+    color: rgb(1, 99, 99);
+    height: 100vh;
+    padding-top: 24vh;
+    padding-left: 2.1vw;
+
+}
+
+#Interests {
+    color: rgb(1, 99, 99);
+    height: 100vh;
+    padding-top: 27vh;
+    padding-left: 2.1vw;
+
+}
+
+a {
+    text-decoration: none;
+    color : lightgray;
+}
+
+a:hover {
+    color: white;
+}
+
+#HorNavBar {
+    display: none;
+}
+
+@media screen and (max-width: 990px)
+{
+    .show {
+        display: block;
+    }
+
+    #NavBar {
+        display: none;
+    }
+
+    .dropdown {
+        display: none;
+        background: #bd5d38;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 2.4vh;
+        text-align: left;
+        width: 100vw;
+        height: 30vh;   
+    }
+
+    #HorNavBar{
+        background: #bd5d38;
+        color: white;
+        width: 100vw;
+        height: 8vh;
+        display: block;
+        position: fixed;
+        padding-top: 0.1vw;
+        top: 0;
+        right: 0;
+        left: 0;
+        font-size: 2.4vh;
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .Contents {
+        width : 100vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 4.5vw;
+        color: rgb(1, 99, 99);
+        background: white;
+        vertical-align: middle;
+        overflow: auto;
+        padding-left: 0px;
+    }
+    
+    #About {
+        height: 100vh;
+        padding-top: 22vh;
+        margin-top: 0px;
+    }
+    
+    #Education {
+        height: 100vh;
+        padding-top: 21vh;
+        margin-top: 0px;
+        padding-left: 1vw;
+    }
+    
+    li {
+        margin-left: 0.11vw;
+    }
+
+    #Skill {
+        color: rgb(1, 99, 99);
+        height: 100vh;
+        padding-top: 22vh;
+        margin-top: 0x;
+    }
+    
+    #Internships {
+        color: rgb(1, 99, 99);
+        height: 100vh;
+        padding-top: 24vh;
+        padding-left: 0.6vw;
+    }
+    
+    #Interests {
+        color: rgb(1, 99, 99);
+        height: 100vh;
+        padding-top: 27vh;
+        padding-left: 2px;
+    }
+}
