@@ -77,6 +77,11 @@ a:hover {
     color: white;
 }
 
+k {
+    text-decoration: none;
+    color : lightgray;
+}
+
 #HorNavBar {
     display: none;
 }
